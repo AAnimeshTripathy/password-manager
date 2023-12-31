@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass World </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">Pass World</div>
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Welcome To Your Pass World !</h2>
+            <p>We're delighted to have you join our secure digital haven where safeguarding your online identity is our top priority. In a world filled with countless passwords and the need for heightened security, Pass World is here to simplify and fortify your online experience.
+            </p>
+            <br>
+            <h2>Your Saved Passwords <span id="alert-copy"></span></h2>
+            <table class="password-table">
+                <thead>
+                    <tr>
+                        <th class="website">Website</th>
+                        <th class="user-name">User Name</th>
+                        <th class="password">Password</th>
+                        <th class="delete">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>                
+            </table>
+            <br>
+            
+            <div class="form-container">
+                <h2>Enter A New Password</h2>
+                <form class="password-form">
+                    <label for="website">Website:</label>
+                    <input type="text" id="website" name="website" required>
+        
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+        
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+        
+                    <button type="submit" id="save-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        copyright | passWorld.com | All Rights Reserved
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
